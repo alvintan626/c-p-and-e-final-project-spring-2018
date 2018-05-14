@@ -2,9 +2,9 @@
 
 NB: You might find useful the [sample proposal](http://github.com/zamfi/ucb-jacobs-creative-programming-electronics-spring-2018/blob/master/hw/sample-proposal.md) useful in completing this assignment!
 
-# Zoomba
+# ASK Zoomba 
 
-Zoomba is a battery-packed powered robot that picks up letters from the floor and turn them into confetti!
+ASK Zoomba is a battery-packed powered robot that picks up letters from the floor and turn them into confetti!
 
 ## Team
 
@@ -12,17 +12,19 @@ Sandy Chu, Kailin Li, Alvin Tan.
 
 ## Summary
 
-Here, write a paragraph or two describing what you built for your final project and what was challenging. 
-
 Include a discussion how it will be interactive or responsive to the environment.
+
+Alvin, Sandy, and Kailin's Zoomba (ASK Zoomba) is a close competitor to KiwiBot and the Roomba. Our product involves packaging mail using a 
 
 ## Component Parts
 
-HC-SR04 Ultrasonic Sensor Distance Module (5pcs) for Arduino UNO MEGA2560 Nano Robot XBee ZigBee by ElecRight
+HC-SR04 Ultrasonic Sensor Distance Module for Arduino UNO MEGA2560 Nano Robot XBee ZigBee by ElecRight
 
 4 Pcs Arduino Plastic Tire Wheel with DC 3V 5V 6v Gear Motor For DIY Robot Smart Car Robot
 
-Supporting Swivel Caster Wheel - 1.3" Diameter
+L293D Motor Driver
+
+3 Servo Motors
 
 Woodblock
 
@@ -30,17 +32,21 @@ Woodblock
 
 1 Battery Pack
 
+1 Portable USB Charger
+
+Light Sensor
+
+3d-printed V-block and leather strap
+
 Include what types of inputs/outputs/data it will use, and a block diagram showing how all those pieces are connected.
 
 ## Challenges
 
-A brief discussion of what was hard, challenging, or unexpected about your project.
+The unexpected portion of our project happened to involve the sensors. The light and distance sensor worked momentarily before completely not respeonding at all. We thought it could be issues with the sensor itself, so we tried replacing it with new ones. However, nothing changed and we assume that the connection on the arduino featherboards could be faulty.
 
 ## Timeline
 
-What did you do in each of the past five weeks?
-
-- Week 1: Write Proposal
+- Week 1: Write Proposal and layout design for our robot
 - Week 2: Order Materials
 - Week 3: Assembly/Code
 - Week 4: Assembly/Code
@@ -56,6 +62,6 @@ https://www.youtube.com/watch?v=XmYqvloiWg0
 
 http://www.instructables.com/id/CleanBOT/
 
-**Include a link to your final showcase one-pager here in PDF format.**
+**A link to our final showcase one-pager in PDF format can be found in the rest of this repository.**
 
 Tutorials, comments, videos, magazine articles - anything you found that helps you understand your project.
